@@ -1,0 +1,103 @@
+# .gitignore para proyecto (archivos que no deben subirse a GitHub)
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDEs / editores
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.tmp
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+.cache/
+dist/
+build/
+.next/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+build/
+dist/
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# Logs y reportes
+logs/
+*.log
+*.log.*
+npm-debug.log*
+
+# Entornos y secretos
+.env
+.env.local
+.env.*.local
+secrets/
+credentials/
+*.key
+*.pem
+*.crt
+
+# Bases de datos y archivos generados
+*.sqlite3
+*.db
+*.sql
+*.sqlite3-journal
+*.sqlite
+
+# Contenedores / Docker overrides
+docker-compose.override.yml
+
+# Paquetes, artefactos y cobertura
+coverage/
+coverage.xml
+*.lcov
+
+# Archivos de sistema y temporales
+*.bak
+*.tmp
+*.swp
+*.old
+
+# JetBrains / IntelliJ
+*.iml
+*.iws
+.idea/
+.idea_modules/
+
+# Otros
+yarn-error.log
+npm-debug.log*
+.DS_Store
+.envrc
+.env.*.bak
+
+# Añadir aquí reglas específicas del proyecto si hace falta
